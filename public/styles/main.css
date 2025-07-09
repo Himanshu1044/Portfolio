@@ -11,8 +11,8 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    /* height: 100vh; */
-    /* border: 2px solid black; */
+    scroll-behavior: smooth;
+
 }
 
 .container {
@@ -498,5 +498,11 @@ button {
     }
     form input,textarea,button{
         width: 100%;
+    }
+}
+@media(max-width:500px){
+    .navbarUl{
+        display: none;
+        z-index: 0;
     }
 }
